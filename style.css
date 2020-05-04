@@ -336,7 +336,7 @@ p {
 }
 
 .logo_area {
-    padding: 18px 0;
+    padding: 10px ;
 }
 
 header.sticky .logo_area h2 .logo_area span {
@@ -1098,10 +1098,11 @@ font-size: 24px;
     border-radius: 6px;
     position: relative;
     z-index: 1;
+	padding-left:90px;
 }
 
 .tab-content-text h4 > span {
-    color: #ff9800;
+    color: #000;
 }
 
 
@@ -1394,7 +1395,7 @@ font-size: 24px;
 
 .member_deatile > p {
     color: #000;
-    font-size: 18px;
+    font-size: 5px;
     margin-bottom: 10px;
 }
 
@@ -2405,4 +2406,11 @@ div.mobile-wrapper video {
 	height:30%;
 	width:50%;
 	align-items:center;
+}
+
+
+
+#nav .active { 
+    border-bottom:2px solid green ! important;
+	
 }

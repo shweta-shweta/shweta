@@ -9,15 +9,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118486556-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-118486556-1');
-</script>
+
+
+
+
     <!-- Title -->
     <title>VAOO</title>
     <!-- Favicon -->
@@ -59,7 +55,7 @@
 								<li><a href="cabs.html">CABS</a></li>
                                 <li><a href="media.html">MEDIA</a></li>
                                
-                                <li><a href="contact.html">CONTACT</a></li>
+                                <li class="active"><a href="contact.html">CONTACT</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -256,9 +252,7 @@
     <script src="js/ajax-contact.js"></script>
     <!-- All Plugins JS -->
     <script src="js/plugins.js"></script>
-    <!-- GOOGLE MAPS -->
-    <!--script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwuyLRa1uKNtbgx6xAJVmWy-zADgegA2s"></script>
-    <script src="js/map-active.js"></script>
+    
     <!-- Active JS -->
     <script src="js/active.js"></script>
 </body>
@@ -289,6 +283,16 @@ $('#mail').click(function(){
 						
 			
 			}) ;
+			
+			
+$(function() { 
+    $('#nav').on('click','.nav', function ( e ) {
+        e.preventDefault();
+        $(this).parents('#nav').find('.active').removeClass('active').end().end().addClass('active');
+        $(activeTab).show();
+    });
+});
+
 </script>
 <!-- Mirrored from demo.designing-world.com/boxplus-v1/boxplus/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Mar 2018 07:20:24 GMT -->
 </html>

@@ -9,14 +9,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118486556-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-118486556-1');
-</script><!--The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<!-- nav bar script-->
+<!--The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
     <title>VAOO</title>
@@ -53,7 +48,7 @@
                         <nav id="nav-menu">
                             <ul id="nav">
                                  <li><a href="index.html">HOME</a></li>
-                                <li><a href="About.html">ABOUT</a></li>
+                                <li class="active"><a href="About.html">ABOUT</a></li>
                                 
                                 <li><a href="Adservices.html">AD SERVICES</a></li>
 								<li><a href="cabs.html">CABS</a></li>
@@ -71,7 +66,7 @@
 
     <!-- ==================== Wellcome Area Start ==================== -->
     <section class="wellcome_slides_area clearfix" id="home" style="background-color:grey">
-        <div class="wellcome_area text-center jarallax" style="background-image:url(#);">
+        <div class="wellcome_area text-center jarallax" style="background-image:url(img/aboutbg1.jpg);">
              <!-- <div class="bottom-curve-design">  -->
                 <div class="table">
                     <div class="table-cell">
@@ -435,8 +430,8 @@
     <!-- All Plugins JS -->
     <script src="js/plugins.js"></script>
     <!-- GOOGLE MAPS -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwuyLRa1uKNtbgx6xAJVmWy-zADgegA2s"></script>
-    <script src="js/map-active.js"></script>
+   
+   
     <!-- Active JS -->
     <script src="js/active.js"></script>
 </body>
@@ -464,6 +459,16 @@ $('#mail').click(function(){
 						
 			
 			}) ;
+			
+			
+$(function() { 
+    $('#nav').on('click','.nav', function ( e ) {
+        e.preventDefault();
+        $(this).parents('#nav').find('.active').removeClass('active').end().end().addClass('active');
+        $(activeTab).show();
+    });
+});
+
 </script>
 <!-- Mirrored from demo.designing-world.com/boxplus-v1/boxplus/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Mar 2018 07:20:24 GMT -->
 </html>
