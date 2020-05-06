@@ -388,7 +388,7 @@ header.sticky .menu_area nav ul li > a {
 .wellcome_area {
     background-position: center center;
     background-size: cover;
-    height: 700px;
+    height: 800px;
     position: relative;
     width: 100%;
     z-index: 1;
@@ -804,7 +804,7 @@ header.sticky .menu_area nav ul li > a {
 .who_we_area {
     position: relative;
     z-index: 3;
-    background-color: #f7f7f7;
+    background-color: #fff;
     padding-top: 100px;
 }
 
