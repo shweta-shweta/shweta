@@ -2319,7 +2319,7 @@ img {
 }
 .vid-frame {
     cursor: pointer;
-    width: 30.4%;
+    width: 17%;
     padding: 0px;
     http: img/bg.png display: inline-flex;
     height: auto;
@@ -2352,7 +2352,7 @@ div.mobile-wrapper video {
     box-sizing: border-box;
     background: url(img/frames/frame1.png) center center no-repeat;
     background-size: contain;
-    padding: 3% 14.7% 0%;
+    padding: 3% 14.5% 0%;
     position: absolute;
     top: 0;
     left: 0;
