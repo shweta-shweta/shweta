@@ -2319,7 +2319,7 @@ img {
 }
 .vid-frame {
     cursor: pointer;
-    width: 30.4%;
+    width: 50.4%;
     padding: 0px;
     http: img/bg.png display: inline-flex;
     height: auto;
@@ -2342,8 +2342,8 @@ div.mobile-wrapper {
 div.mobile-wrapper {
     /* position: relative; */
     padding-top: 25px;
-    /* padding-bottom: 67.5%; */
-    padding-bottom: 50%;
+    padding-bottom: 85.5%;
+    /* padding-bottom: 50% */
     height: 0;
 }
 
