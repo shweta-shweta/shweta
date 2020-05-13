@@ -1362,7 +1362,7 @@ font-size: 24px;
 ====================================== */
 
 .our_expert_team_area {
-    background-color: #f7f7f7;
+    background-color: #fff;
 }
 
 .team_detaile {
@@ -2413,5 +2413,9 @@ div.mobile-wrapper video {
 
 #nav .active { 
     border-bottom:2px solid green ! important;
+	
+}
+#shweta 
+{
 	
 }

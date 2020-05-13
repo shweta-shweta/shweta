@@ -188,7 +188,7 @@
                     <div class="heading_text text-center">
                        
                         <h2>WE  GO  THE  EXTRA  MILE </h2>
-                        <p></p>
+                        
                         <!-- <div class="line-shape"></div> -->
                     </div>
                 </div>
@@ -196,21 +196,21 @@
 
             <div class="row align-items-center mt-50">
                 <div class="col-lg-4">
-                    <div class="single_bright_feature text-center">
+                    <div class="single_bright_feature text-center book_ride">
                         <div class="features_icon">
                             <i class="pe-7s-server"></i>
                         </div>
                         <h5>BOOK a RIDE </h5>
                         <!--p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p-->
                     </div>
-                    <div class="single_bright_feature text-center">
+                    <div class="single_bright_feature text-center watch_to_play">
                         <div class="features_icon">
                             <i class="pe-7s-science"></i>
                         </div>
                         <h5>WATCH to PAY</h5>
                         <!--p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p-->
                     </div>
-                    <div class="single_bright_feature text-center">
+                    <div class="single_bright_feature text-center ride_with_confidence">
                         <div class="features_icon">
                             <i class="pe-7s-album"></i>
                         </div>
@@ -221,27 +221,27 @@
 
                 <div class="col-lg-4">
                     <div class="bright_features_thumb">
-                        <img src="img/Vid-frame.png" alt="">
+                        <img id="shweta" src="img/frames/frame.png" alt=""> 
 						
                     </div>
                 </div>
 
                 <div class="col-lg-4">
-                    <div class="single_bright_feature right-fea text-center">
+                    <div class="single_bright_feature right-fea text-center ride_later">
                         <div class="features_icon">
                             <i class="pe-7s-rocket"></i>
                         </div>
                         <h5>RIDE LATER: </h5>
                         <!--p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p-->
                     </div>
-                    <div class="single_bright_feature right-fea text-center">
+                    <div class="single_bright_feature right-fea text-center pay_your_way">
                         <div class="features_icon">
                             <i class="pe-7s-cup"></i>
                         </div>
                         <h5>PAY YOUR WAY</h5>
                         <!--p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p-->
                     </div>
-                    <div class="single_bright_feature right-fea text-center">
+                    <div class="single_bright_feature right-fea text-center customer_support">
                         <div class="features_icon">
                             <i class="pe-7s-graph3"></i>
                         </div>
@@ -253,6 +253,7 @@
         </div>
     </section>
     <!-- ===================== Bright Feature Area End ======================== -->
+	
 	
 	
 	
@@ -820,7 +821,30 @@ $('#mail').click(function(){
         $(this).parents('#nav').find('.active').removeClass('active').end().end().addClass('active');
         $(activeTab).show();
     }); */
+$('.book_ride').on("click",function(){
 
+$("#shweta").attr("src", "img/frames/frame2.png");
+});
+$('.watch_to_play').on("click", function()
+{
+$("#shweta").attr("src", "img/frames/frame3.png");
+});
+$('.ride_with_confidence').on("click",function(){
+
+$("#shweta").attr("src", "img/frames/frame2.png");
+});
+$('.ride_later').on("click",function(){
+
+$("#shweta").attr("src", "img/frames/frame3.png");
+});
+$('.pay_your_way').on("click",function(){
+
+$("#shweta").attr("src", "img/frames/frame2.png");
+});
+$('.customer_support').on("click",function(){
+
+$("#shweta").attr("src", "img/frames/frame3.png");
+});
 
 </script>
 <!-- Mirrored from demo.designing-world.com/boxplus-v1/boxplus/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Mar 2018 07:20:24 GMT -->
