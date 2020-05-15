@@ -1630,7 +1630,7 @@ font-size: 24px;
 
 .clients_feedback_area .owl-prev,
 .clients_feedback_area .owl-next {
-    border: 2px solid #1abc9c;
+    border: 2px solid #59c06d;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
@@ -1847,7 +1847,7 @@ font-size: 24px;
 }
 
 .single_bright_feature:hover {
-    background-color: #11998e;
+    background-color: #59c06d;
 
 }
 
@@ -1857,7 +1857,7 @@ font-size: 24px;
 }
 
 .features_icon {
-    background-color: #11998e;
+    background-color: #000;
     border-radius: 50%;
     color: #fff;
     font-size: 24px;
