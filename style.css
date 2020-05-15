@@ -991,7 +991,7 @@ font-size: 24px;
     text-align: center;
     position: relative;
     z-index: 1;
-    background-color: #1abc9c;
+    background-color: #59c06d;
     color: #fff;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
@@ -1000,7 +1000,7 @@ font-size: 24px;
 
 .what_we_do_area .nav-tabs .nav-link.active,
 .what_we_do_area .nav-tabs .nav-link:hover {
-    background-color: #ff9800;
+    background-color: #000;
 
 }
 
