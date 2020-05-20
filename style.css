@@ -216,6 +216,7 @@ li {
     top: 40px;
     width: 100%;
     z-index: 99;
+	height:70px;
 }
 
 .header_area.sticky {
@@ -239,12 +240,12 @@ li {
 }
 p {
     color: #000;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 300;
 }
 
 .heading_text > p {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .heading_text > h2 {
@@ -253,11 +254,11 @@ p {
 }
 
 .heading_text > h3 {
-    color: #b4b4b4;
-    font-size: 90px;
-    font-weight: 100;
-    margin: 0;
-    font-family: 'Lato', sans-serif;
+    /* color: #b4b4b4; */
+    /* font-size: 90px; */
+    /* font-weight: 100; */
+    /* margin: 0; */
+    /* font-family: 'Lato', sans-serif; */
 }
 
 .heading_text {
@@ -371,7 +372,7 @@ header.sticky .logo_area span {
 }
 
 .menu_area nav ul li > a {
-    color: #000;
+    color: #0d073e;
     display: block;
     font-size: 16px;
     padding: 24px 9px;
@@ -998,6 +999,7 @@ font-size: 24px;
     padding: 30px 15px;
     margin: 0 auto;
     width: 110px;
+	font-weight: bold;
     height: 110px;
     text-align: center;
     position: relative;
@@ -1049,7 +1051,7 @@ font-size: 24px;
 
 .tab-content-text > p {
     margin-bottom: 0;
-    font-size: 16px;
+    font-size: 18px;
 	
 }
 
@@ -2522,8 +2524,8 @@ pre{
 }
 
 .discover > a:hover {
-    background: #009e1e;
-    color: #000;
+    background: green;
+    color: #fff;
 }
 
 
